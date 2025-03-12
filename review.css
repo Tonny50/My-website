@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: goldenrod;
+    height: 4em;
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
+    
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.search-bar{
+    width: 40rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+nav{
+    margin: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: blue;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid goldenrod;
+
+}
+
+.box{
+    width: 18.5rem;
+    height: 2rem;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+    padding: 5rem;
+    
+}
+h2{
+    font-size: 40px;
+}
+
+#last-paragraph{
+    font-size: 30px;
+}
+
+.boxf{
+    width: 20rem;
+    height: 2.5rem;
+}
+
+.submit-button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+}

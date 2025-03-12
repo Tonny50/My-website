@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: goldenrod;
+    height: 4em;
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
+    
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    
+}
+
+.search-bar{
+    width: 40rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+nav{
+    margin: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+    color: royalblue;
+}
+
+main{
+    
+}
+
+.products{
+    margin: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    border: 1px solid wheat;
+    gap: 4px;
+}
+
+.item{
+    border: 1px solid wheat;
+}
+
+figure{
+    text-align: center;
+    height: fit-content;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+    padding: 5rem;
+    
+}
+h2{
+    font-size: 40px;
+}
+
+#last-paragraph{
+    font-size: 30px;
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+}
