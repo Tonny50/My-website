@@ -4,18 +4,39 @@
     box-sizing: border-box;
 }
 
-header{
+.fix-nav .sticky-nav{
+    position: fixed;
+    top: 0px;
+    min-width: 115rem;
+
+}
+
+.fix-nav header{
+
     display: flex;
     background-color: goldenrod;
-    height: 4em;
+    
     align-items: center;
     padding: 3rem;
     justify-content: space-between;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+header{
     
+    display: flex;
+    background-color: goldenrod;
+    
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
     flex-shrink: 1;
     flex-wrap: wrap;
     
 }
+
+
 
 .search-bar{
     width: 40rem;
@@ -71,7 +92,6 @@ h1{
     align-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-    border: 1px solid wheat;
     gap: 4px;
 }
 
