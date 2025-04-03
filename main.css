@@ -61,9 +61,8 @@ h1{
     color: royalblue;
 }
 
-main{
+
     
-}
 
 .products{
     margin: 100px;
@@ -77,12 +76,36 @@ main{
 }
 
 .item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
     border: 1px solid wheat;
+    min-height: 300px;
+    
+}
+
+.add-button{
+    background-color: rgb(230, 203, 54);
+    border-style: none;
+    font-size: 18px;
+}
+
+.amount{
+    margin: 10px;
 }
 
 figure{
+    display: grid;
+    justify-content: center;
     text-align: center;
     height: fit-content;
+    margin: auto;
+    width: 50%;
+}
+
+ .item img{
+    max-height: 200px;
+    
 }
 
 footer{
