@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+  overflow-x: hidden;
+}
+
+.fix-nav .sticky-nav{
+    position: fixed;
+    top: 0px;
+    min-width: 115rem;
+
+}
+
+.space{
+    display: block;
+    height: 40px;
+    background-color: rgb(241, 221, 195);
+}
+
+
 header{
     display: flex;
     background-color: goldenrod;
