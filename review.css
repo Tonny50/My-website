@@ -30,13 +30,12 @@ header{
     align-items: center;
     padding: 3rem;
     justify-content: space-between;
-    
     flex-shrink: 1;
     flex-wrap: wrap;
 }
 
 .search-bar{
-    width: 40rem;
+    width: 20rem;
     height: 2rem;
     justify-content: center;
     align-items: center;
