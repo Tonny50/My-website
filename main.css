@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    width: 100%;
+  overflow-x: hidden;
 }
 
 .fix-nav .sticky-nav{
@@ -11,23 +17,19 @@
 
 }
 
-.fix-nav header{
-
+.space{
     display: flex;
-    background-color: goldenrod;
-    
-    align-items: center;
-    padding: 3rem;
-    justify-content: space-between;
-    flex-shrink: 1;
-    flex-wrap: wrap;
+    height: 40px;
+    background-color: rgb(241, 221, 195);
 }
+
+
+
 
 header{
     
     display: flex;
-    background-color: goldenrod;
-    
+    background-color: goldenrod;    
     align-items: center;
     padding: 3rem;
     justify-content: space-between;
@@ -37,14 +39,19 @@ header{
 }
 
 
-
 .search-bar{
-    width: 40rem;
+    width: 20rem;
     height: 2rem;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 25px;
+}
+
+@media screen and (max-width:420px) {
+    .search-bar{
+        max-width: 60px;
+    }
 }
 
 .logo{
